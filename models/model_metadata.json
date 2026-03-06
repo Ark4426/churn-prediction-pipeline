@@ -1,0 +1,38 @@
+{
+  "best_model": "logistic_regression",
+  "metrics": {
+    "accuracy": 0.7402413058907026,
+    "precision": 0.506896551724138,
+    "recall": 0.786096256684492,
+    "f1_score": 0.6163522012578616,
+    "roc_auc": 0.8462398925314526
+  },
+  "features_numeric": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "AvgMonthlySpend",
+    "NumServices"
+  ],
+  "features_categorical": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "TenureGroup"
+  ],
+  "train_samples": 5634,
+  "test_samples": 1409
+}
